@@ -16,8 +16,8 @@ void add(){
 	Printf("Enter Second Number :");
 	num2 = ReadBytePC();
 	
-	Printf("Addition ===> ");
-	SendByte2PC(num1 + num2);
+	Printf("difference ===> ");
+	SendByte2PC(num1 - num2);
 	
 	}
 
